@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Playfair Display";
+
+}
+
+:root{
+    --primary-color: #093c67;
+    --background-color: rgb(6, 6, 50);
+    --text-color: #9e0a0a;
+    --hover-color: rgb(197, 182, 182);
+    --shadow-color: rgba(0, 0, 0, 0.15);
+    --font-family: "Sedan SC", serif;
+    --font-weight: 400;
+    --font-style: normal;
+}
+
+.navbar{
+    background-color: var(--background-color);
+}
+
+.navbar .nav-link{
+    color: #9e0a0a;
+}
+
+.navbar .nav-link:hover{
+    color: var(--hover-color);
+   
+}
+
+.btn1 {
+    padding: 10px 20px;
+    border-style: none;
+    border-radius: 5px;
+    background-color: var(--background-color);
+    color: white;
+    
+}
+
+.btn1:hover{
+    background-color: #9e0a0a;
+    transition: 0.7s ease-in-out;
+}
+
+.btn2{
+    padding: 10px 20px;
+    border-style: none;
+    border-radius: 5px;
+    background-color: #9e0a0a;
+    color: white;
+}
+
+/* styling home section  */
+.home{
+    background-image: url(./images/campaign-creators-gMsnXqILjp4-unsplash.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.content{
+    padding-top: 170px;
+}
+
+.content h2{
+    font-weight: 900;
+    text-shadow: 1px 1px 2px aliceblue;
+    font-size: 35px;
+}
+
+.content input{
+    width: 70%;
+    height: 71px;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.content .btn3{
+    width: 15%;
+    height: 71px;
+    border-style: none;
+   background-color: #9e0a0a;
+   color: white;
+   margin: -6px;
+}
